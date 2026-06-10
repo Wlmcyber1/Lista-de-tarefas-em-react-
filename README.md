@@ -41,15 +41,15 @@ Para clonar e rodar este projeto na sua máquina de desenvolvimento, siga os pas
    ```
 2. **Entrar no diretório raiz**
  ```bash
-cd Lista-de-tarefas-em-react-
+   cd Lista-de-tarefas-em-react-
 ```
 3. **Entrar na pasta do projeto React (todo)**
  ```bash
-cd todo
+   cd todo
 ```
 4. **Instalar todas as dependências do projeto**:
 ```bash
-npm install
+   npm install
 ```
 5. **Iniciar o servidor local de desenvolvimento:**
    ```bash
