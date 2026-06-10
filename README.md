@@ -40,17 +40,17 @@ Para clonar e rodar este projeto na sua máquina de desenvolvimento, siga os pas
    git clone https://github.com/Wlmcyber1/Lista-de-tarefas-em-react-
    ```
 2. **Entrar no diretório raiz**
- ```bash
+    ```bash
    cd Lista-de-tarefas-em-react-
-```
+   ```
 3. **Entrar na pasta do projeto React (todo)**
- ```bash
+    ```bash
    cd todo
-```
+   ```
 4. **Instalar todas as dependências do projeto**:
-```bash
+   ```bash
    npm install
-```
+   ```
 5. **Iniciar o servidor local de desenvolvimento:**
    ```bash
    npm run dev
