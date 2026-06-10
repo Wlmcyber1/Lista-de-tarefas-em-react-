@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Todos = ({ todo, removeTodo, completar }) => {
-  //passo a função que está no pai para o filho como se fosse uma prop e uso ele no onclick
+
 
   return (
     <li>
