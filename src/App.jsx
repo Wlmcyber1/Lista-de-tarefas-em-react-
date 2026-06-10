@@ -3,14 +3,14 @@ import Todos from "./componentes/Todos";
 import TodoForm from "./componentes/TodoForm";
 import "./index.css";
 function App() {
-  const salvarLocal = localStorage.getItem("todos"); //pegar o array
-  //const [valorAtual, setvalorAtual] = useState("");
+  const salvarLocal = localStorage.getItem("todos"); 
+  
   const [todos, setTodos] = useState(
     salvarLocal ? JSON.parse(salvarLocal) : [],
-  ); // se tiver o array, transforme em obj, caso contrario transforme em um array vazio
+  );
 
   useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos)); // fique olhando o todos, se alterado, transforme a variavel todos em string
+    localStorage.setItem("todos", JSON.stringify(todos)); 
   }, [todos]);
 
   const addTodo = (text, category) => {
